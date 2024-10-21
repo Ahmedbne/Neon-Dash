@@ -13,7 +13,7 @@ WHITE = (255, 255, 255)
 
 # Chargement des sprites
 # Assurez-vous d'utiliser votre propre chemin d'accès pour charger les sprites.
-sprite_sheet = pygame.image.load("/mnt/data/red-hoodie-boy-game-sprites-side-scrolling-action-adventure-endless-runner-d-mobile-64180971-removebg-preview.png").convert_alpha()
+sprite_sheet = pygame.image.load("red-hoodie-boy-game-sprites-side-scrolling-action-adventure-endless-runner-d-mobile-64180971-removebg-preview.png").convert_alpha()
 
 # Classe pour le personnage
 class Player(pygame.sprite.Sprite):
